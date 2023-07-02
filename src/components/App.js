@@ -14,7 +14,7 @@ const App = () => {
   }
 
   const decrement = () => {
-    dispatch({ type: "INCREMENT", payload: counter });
+    dispatch({ type: "DECREMENT", payload: counter });
   }
 
   return (
